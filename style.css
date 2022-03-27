@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
+ 
+/*@charset "UTF-8";
+
+#174B80
+#7ABCFF
+#2E96FF
+#526D87
+c
+*/
+ 
+ 
+:root {
+    --cor1: #5AE6CD;
+    --cor2: #CF8EE6;
+    --cor3: #2E96FF;
+    --cor4: #E667AF;
+    --cor5: #2578CC;
+ 
+}
+ 
+*{
+    margin:0px;
+    padding: 0px;
+}
+ 
+body{
+    background-color: var(--cor2);
+    font-family: 'Fredoka', sans-serif;
+    color: black;
+}
+ 
+header{
+   background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    color: white;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+ 
+}
+h1{
+  text-shadow: 10px 10px 10px black;
+  
+
+  
+}
+nav{
+    background-color: var(--cor4) ;
+    padding: 10px;
+   
+}
+ 
+nav > a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+ 
+}
+ 
+nav > a:hover{
+    background-color: var(--cor2);
+    color:var(--cor4)
+}
+ 
+main{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    min-width: 320px;
+  max-width: 1000px;
+  padding-bottom: 10px;
+  padding: 10px;
+  box-shadow: 4px 5px 4px #f042b0 ;
+   
+}
+ 
+h2{
+    text-align: center;
+}
+ 
+main p{
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 15px 7px;
+    line-height: 30px;
+ 
+}
+ 
+pre{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ 
+aside{
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+;
+    margin:20px;
+}
+ 
+aside > ul{
+    list-style-position: inside;
+    text-align: justify;
+}
+ 
+aside > h3{
+    text-align: center;
+    background-color: #5AB8E6;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin: -15px -10px 0px -10px;
+ 
+}
+ 
+ 
+footer{
+    margin-top: 10px;
+    background-color: #5AB8E6;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+ 
+}
+ 
+footer > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+ figcaption{ font-size: 12px
+   
+ }
+
+iframe{margin:15px;
+      border:10px;
+      border-style: solid;
+      border-color: pink;
+      padding: 2px;
+      }
+      ul{
+        text-decoration: none;
+    }
+    
+    li{
+        list-style-position: inside;
+        text-align: justify;
+        padding-left: 20px;
+        text-decoration: none;
+    }
